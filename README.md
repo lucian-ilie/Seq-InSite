@@ -51,10 +51,11 @@ python predict_ENS.py /path/to/dataset /path/to/msa-embeddings /path/to/t5-embed
 ```
 Please note that the accepted naming convention for embedding files is "PDBID.embd".
 Each line of the embedding file must begin with the one-letter code for the corresponding amino acid, followed by a colon (:) symbol. The embedding representation of the amino acid should then be divided by spaces e.g.:
+```
 M:0.30833972 -0.17879489 -0.019303203 ...
 A:0.32114908 -0.01173505 -0.1363031 ...
 L:0.23623097 -0.295787 0.056586854 ...
-
+```
 
 # Training
 In order to retrain the model you should use 'train_T5_MSA_LSTM.py' and 'train_T5_MSA_MLP.py'. If you have the embedding stored in the desired directory, you can employ the subsequent command to train each branch of the model.
