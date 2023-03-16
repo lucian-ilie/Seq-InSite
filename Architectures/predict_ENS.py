@@ -140,7 +140,7 @@ def Predict(test_all_features_np3D, input_file, output_dir):
     
         
     model = keras.models.Model(inputs=[input_features,input_features2], outputs=out3)
-    model.load_weights("Models/MLP_T5_MSA_L9.h5") 
+    model.load_weights("Models/MLP_T5_MSA_without60.h5") 
     y_pred_testing = model.predict(test_all_features_np3D, batch_size=1024).ravel()
 
 
@@ -171,7 +171,7 @@ def Predict(test_all_features_np3D, input_file, output_dir):
     out3 = Dense(1, activation='sigmoid', name="dense_LSTM_com_4")(out3)
 
     model = keras.models.Model(inputs=[input_features,input_features2], outputs=out3)
-    model.load_weights("Models/LSTM_T5_MSA_L9.h5") 
+    model.load_weights("Models/LSTM_T5_MSA_without60.h5") 
     y_pred_testingRNN = model.predict(test_all_features_np3D, batch_size=1024).ravel()
     
 
