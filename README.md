@@ -53,7 +53,7 @@ Please note that the accepted naming convention for embedding files is "protname
 
 
 # Training
-In order to retrain the model you should use 'train_T5_MSA_LSTM.py' and 'train_T5_MSA_MLP.py'. Assuming you have the embedding in the desired directory you could use the following command to train each branch of the model
+In order to retrain the model you should use 'train_T5_MSA_LSTM.py' and 'train_T5_MSA_MLP.py'. If you have the embedding stored in the desired directory, you can employ the subsequent command to train each branch of the model.
 
 ```
 python train_T5_MSA_MLP.py
