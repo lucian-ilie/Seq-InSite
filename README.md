@@ -50,6 +50,10 @@ If you already possess the appropriate embeddings, you may utilize the following
 python predict_ENS.py /path/to/dataset /path/to/msa-embeddings /path/to/t5-embeddings
 ```
 Please note that the accepted naming convention for embedding files is "PDBID.embd".
+Each line of the embedding file must begin with the one-letter code for the corresponding amino acid, followed by a colon (:) symbol. The embedding representation of the amino acid should then be divided by spaces e.g.:
+M:0.30833972 -0.17879489 -0.019303203 ...
+A:0.32114908 -0.01173505 -0.1363031 ...
+L:0.23623097 -0.295787 0.056586854 ...
 
 
 # Training
