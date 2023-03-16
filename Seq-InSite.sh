@@ -17,14 +17,14 @@ embd=$User_Dir/testFeatures/embd/
 t5Embd=$User_Dir/testFeatures/t5Embd/
 output=$User_Dir/output/
 # Create a file for each protein in fasta file
-python Utiles/fastaToFile.py $DATASET_FILE $fastaDir
+python Utils/fastaToFile.py $DATASET_FILE $fastaDir
 
 # Compute MSA file for each protein
-bash Utiles/gra3m.sh $fastaDir $a3mDir
+bash Utils/gra3m.sh $fastaDir $a3mDir
 
 # Calculate msa-transformer and T5 embeddings for each sequence
-python Utiles/T5Embd.py $DATASET_FILE $t5Embd
-python Utiles/msaEmbd.py $DATASET_FILE $a3mDir $embd
+python Utils/T5Embd.py $DATASET_FILE $t5Embd
+python Utils/msaEmbd.py $DATASET_FILE $a3mDir $embd
 
 # Predict Seq-InSite 
 python Architecture/predict_ENS.py $DATASET_FILE $embd $t5Embd $output
