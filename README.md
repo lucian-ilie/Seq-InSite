@@ -49,7 +49,7 @@ If you already possess the appropriate embeddings, you may utilize the following
 ```
 python predict_ENS.py /path/to/dataset /path/to/msa-embeddings /path/to/t5-embeddings
 ```
-Please note that the accepted naming convention for embedding files is "protname.embd".
+Please note that the accepted naming convention for embedding files is "PDBID.embd".
 
 
 # Training
