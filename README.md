@@ -38,20 +38,20 @@ Seq-InSite consists of 7 distinct architectures, each designed for predicting in
 2. predict_T5_MLP.py - A MLP architecture utilizing T5's embeddings as input.
 3. predict_MSA_LSTM.py - A LSTM architecture utilizing msa-transformer's embeddings as input.
 4. predict_T5_LSTM.py - A LSTM architecture utilizing T5's embeddings as input.
-5. predict_T5_MSA_MLP.py -AMLP architecture utilizing both T5 and msa-transformer's embeddings as input.
-6. predict_T5_MSA_LSTM.py -ALSTM architecture utilizing both T5 and msa-transformer's embeddings as input.
+5. predict_T5_MSA_MLP.py -A MLP architecture utilizing both T5 and msa-transformer's embeddings as input.
+6. predict_T5_MSA_LSTM.py -A LSTM architecture utilizing both T5 and msa-transformer's embeddings as input.
 7. predict_ENS.py - The ensemble model.
 
 Additionally, 12 different model weights have been released, each corresponding to a different model, as described below: 
 
-1. MLP_MSA_L9.h5 -AMLP architecture was trained on TR dataset using msa-transformer's embeddings as input. This particular model was trained on data that does not share similarity with Dset_448, Dset_164, Dset_186, and Dset_72.
-2. MLP_T5U50_L9.h5 -AMLP architecture was trained on TR dataset using T5's embeddings as input. This particular model was trained on data that does not share similarity with Dset_448, Dset_164, Dset_186, and Dset_72.
-3. MLP_T5_MSA_L9.h5 -AMLP architecture was trained on TR dataset using both T5 and msa-transformer's embeddings as input. This particular model was trained on data that does not share similarity with Dset_448, Dset_164, Dset_186, and Dset_72.
-4. LSTM_T5_MSA_L9.h5 -ALSTM architecture was trained on TR dataset using both T5 and msa-transformer's embeddings as input. This particular model was trained on data that does not share similarity with Dset_448, Dset_164, Dset_186, and Dset_72.
+1. MLP_MSA_L9.h5 -A MLP architecture was trained on TR dataset using msa-transformer's embeddings as input. This particular model was trained on data that does not share similarity with Dset_448, Dset_164, Dset_186, and Dset_72.
+2. MLP_T5U50_L9.h5 -A MLP architecture was trained on TR dataset using T5's embeddings as input. This particular model was trained on data that does not share similarity with Dset_448, Dset_164, Dset_186, and Dset_72.
+3. MLP_T5_MSA_L9.h5 -A MLP architecture was trained on TR dataset using both T5 and msa-transformer's embeddings as input. This particular model was trained on data that does not share similarity with Dset_448, Dset_164, Dset_186, and Dset_72.
+4. LSTM_T5_MSA_L9.h5 -A LSTM architecture was trained on TR dataset using both T5 and msa-transformer's embeddings as input. This particular model was trained on data that does not share similarity with Dset_448, Dset_164, Dset_186, and Dset_72.
 5. LSTM_MSA_L9.h5 -ALSTM architecture was trained on TR dataset using msa-transformer's embeddings as input. This particular model was trained on data that does not share similarity with Dset_448, Dset_164, Dset_186, and Dset_72.
-6. LSTM_T5U50_L9.h5 -ALSTM architecture was trained on TR dataset using T5's embeddings as input. This particular model was trained on data that does not share similarity with Dset_448, Dset_164, Dset_186, and Dset_72.
-7. LSTM_T5_MSA_without*.h5 -ALSTM architecture was trained using both T5 and msa-transformer's embeddings as input. This particular model was trained on data that does not share similarity with Dset_* where * is 60, 70, 315.
-8. MLP_T5_MSA_without*.h5 -AMLP architecture was trained using both T5 and msa-transformer's embeddings as input. This particular model was trained on data that does not share similarity with Dset_* where * is 60, 70, 315.
+6. LSTM_T5U50_L9.h5 -A LSTM architecture was trained on TR dataset using T5's embeddings as input. This particular model was trained on data that does not share similarity with Dset_448, Dset_164, Dset_186, and Dset_72.
+7. LSTM_T5_MSA_without*.h5 -A LSTM architecture was trained using both T5 and msa-transformer's embeddings as input. This particular model was trained on data that does not share similarity with Dset_* where * is 60, 70, 315.
+8. MLP_T5_MSA_without*.h5 -A MLP architecture was trained using both T5 and msa-transformer's embeddings as input. This particular model was trained on data that does not share similarity with Dset_* where * is 60, 70, 315.
 
 In order to run Seq-InSite use the following command 
 ```
