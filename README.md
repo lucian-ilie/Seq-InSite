@@ -1,8 +1,7 @@
 # The source code of Seq-InSite paper
 The source code of Seq-InSite is optimized for high-throughput predictions and does not share the website's restriction of 10 sequences per run.
 # Citation
-S. Hosseini,  G. Brian Golding, L. Ilie, Seq-InSite: sequence supersedes structure for protein
-interaction site prediction
+S. Hosseini,  G.B. Golding, L. Ilie, Seq-InSite: sequence supersedes structure for protein interaction site prediction, submitted, 2023.
 
 Contact: 
 
@@ -32,26 +31,10 @@ git clone [Seq-InSite git link]
     - install [hh-suite](https://github.com/soedinglab/hh-suite). The [database](http://gwdu111.gwdg.de/~compbiol/uniclust/2020_06/) used in Seq-InSite is uniref30_2020_06.
  
 # Running Seq-InSite
-Seq-InSite consists of 7 distinct architectures, each designed for predicting interactions. These are:
+6 different model weights have been released, each corresponding to a different model, as described below: 
 
-1. predict_MSA_MLP.py - MLP architecture utilizing msa-transformer's embeddings as input.
-2. predict_T5_MLP.py - MLP architecture utilizing T5's embeddings as input.
-3. predict_MSA_LSTM.py - LSTM architecture utilizing msa-transformer's embeddings as input.
-4. predict_T5_LSTM.py - LSTM architecture utilizing T5's embeddings as input.
-5. predict_T5_MSA_MLP.py -MLP architecture utilizing both T5 and msa-transformer's embeddings as input.
-6. predict_T5_MSA_LSTM.py -LSTM architecture utilizing both T5 and msa-transformer's embeddings as input.
-7. predict_ENS.py - The ensemble model.
-
-Additionally, 12 different model weights have been released, each corresponding to a different model, as described below: 
-
-1. MLP_MSA_L9.h5 -MLP architecture was trained on TR dataset using msa-transformer's embeddings as input. This particular model was trained on data that does not share similarity with Dset_448, Dset_164, Dset_186, and Dset_72.
-2. MLP_T5U50_L9.h5 -MLP architecture was trained on TR dataset using T5's embeddings as input. This particular model was trained on data that does not share similarity with Dset_448, Dset_164, Dset_186, and Dset_72.
-3. MLP_T5_MSA_L9.h5 -MLP architecture was trained on TR dataset using both T5 and msa-transformer's embeddings as input. This particular model was trained on data that does not share similarity with Dset_448, Dset_164, Dset_186, and Dset_72.
-4. LSTM_T5_MSA_L9.h5 -LSTM architecture was trained on TR dataset using both T5 and msa-transformer's embeddings as input. This particular model was trained on data that does not share similarity with Dset_448, Dset_164, Dset_186, and Dset_72.
-5. LSTM_MSA_L9.h5 -LSTM architecture was trained on TR dataset using msa-transformer's embeddings as input. This particular model was trained on data that does not share similarity with Dset_448, Dset_164, Dset_186, and Dset_72.
-6. LSTM_T5U50_L9.h5 -LSTM architecture was trained on TR dataset using T5's embeddings as input. This particular model was trained on data that does not share similarity with Dset_448, Dset_164, Dset_186, and Dset_72.
-7. LSTM_T5_MSA_without*.h5 -LSTM architecture was trained using both T5 and msa-transformer's embeddings as input. This particular model was trained on data that does not share similarity with Dset_* where * is 60, 70, 315.
-8. MLP_T5_MSA_without*.h5 -MLP architecture was trained using both T5 and msa-transformer's embeddings as input. This particular model was trained on data that does not share similarity with Dset_* where * is 60, 70, 315.
+1. LSTM_T5_MSA_without*.h5 -LSTM architecture was trained using both T5 and msa-transformer's embeddings as input. This particular model was trained on data that does not share similarity with Dset_* where * is 60, 70, 315.
+2. MLP_T5_MSA_without*.h5 -MLP architecture was trained using both T5 and msa-transformer's embeddings as input. This particular model was trained on data that does not share similarity with Dset_* where * is 60, 70, 315.
 
 
 In order to run Seq-InSite use the following command 
