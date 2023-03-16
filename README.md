@@ -53,6 +53,10 @@ Additionally, 12 different model weights have been released, each corresponding 
 7. LSTM_T5_MSA_without*.h5 -LSTM architecture was trained using both T5 and msa-transformer's embeddings as input. This particular model was trained on data that does not share similarity with Dset_* where * is 60, 70, 315.
 8. MLP_T5_MSA_without*.h5 -MLP architecture was trained using both T5 and msa-transformer's embeddings as input. This particular model was trained on data that does not share similarity with Dset_* where * is 60, 70, 315.
 
+```diff
+- MLP_T5_MSA_without70.h5, MLP_T5_MSA_without60.h5, LSTM_T5_MSA_without70.h5, LSTM_T5_MSA_without60.h5 will be add after publication due to limitation in this way of presentation.
+```
+
 In order to run Seq-InSite use the following command 
 ```
 bash Seq-InSite.sh [Fasta file directory]
