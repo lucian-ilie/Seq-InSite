@@ -1,0 +1,2 @@
+> __Note__: At the moment, we have only shared 'LSTM_T5_MSA_without60.h5' and 'MLP_T5_MSA_without60.h5' via the provided link, while the rest of the weights can be obtained by the address provided below. This temporary measure is necessary due to limitations with GitFront, but once our GitHub repository becomes public, all the weights will be readily accessible.
+https://drive.google.com/drive/folders/1CxrIpyBnPNWFuSNkE8fkKQd-DQzce7Gq 
