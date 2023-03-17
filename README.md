@@ -45,8 +45,10 @@ There are 8 different model weights have been released, each corresponding to a 
 4. MLP_T5_MSA.h5 -MLP architecture was trained using both T5 and msa-transformer's embeddings as input. This particular model was trained on data that does not share similarity with Dset_* where * is 72, 164, 186, 448.
 
 
-- At the moment, we have only shared 'LSTM_T5_MSA_without60.h5' and 'MLP_T5_MSA_without60.h5' via the provided link, while the rest of the weights can be obtained by the address provided below. This temporary measure is necessary due to limitations with GitFront, but once our GitHub repository becomes public, all the weights will be readily accessible.     
-https://drive.google.com/drive/folders/1CxrIpyBnPNWFuSNkE8fkKQd-DQzce7Gq 
+
+> __Note__:At the moment, we have only shared 'LSTM_T5_MSA_without60.h5' and 'MLP_T5_MSA_without60.h5' via the provided link, while the rest of the weights can be obtained by the address provided below. This temporary measure is necessary due to limitations with GitFront, but once our GitHub repository becomes public, all the weights will be readily accessible.
+
+${\color{red}https://drive.google.com/drive/folders/1CxrIpyBnPNWFuSNkE8fkKQd-DQzce7Gq 
 
 In order to run Seq-InSite use the following command 
 ```
