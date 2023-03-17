@@ -47,7 +47,7 @@ By default, the code will execute the ensemble version of Seq-InSite on the data
 If you already possess the appropriate embeddings, you may utilize the following command:
 
 ```
-python predict_ENS.py /path/to/dataset /path/to/msa-embeddings /path/to/t5-embeddings
+python predict_ENS.py /path/to/dataset /path/to/msa-embeddings /path/to/t5-embeddings /path/to/output
 ```
 Please note that the accepted naming convention for embedding files is "PDBID.embd".
 Each line of the embedding file must begin with the one-letter code for the corresponding amino acid, followed by a colon (:) symbol. The embedding representation of the amino acid should then be divided by spaces e.g.:
