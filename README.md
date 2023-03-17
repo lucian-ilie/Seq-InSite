@@ -13,7 +13,13 @@ Lucian Ilie (ilie@uwo.ca)
 
 # System requirement
 Seq-InSite is developed under Linux environment with python 3.8.
-Recommended RAM: > 24GB. The RAM requirement mainly depends on the length of the input sequence. 
+
+Recommended RAM for testing: > 24GB and for training: >110 GB The RAM requirement mainly depends on the length of the input sequence. 
+
+Recommended GPU for testing: p100 with 16 GB of memory and for training: t4 with 16 GB of memory.
+
+
+
 
 # Installation
 1. clone the source code of Seq-InSite
