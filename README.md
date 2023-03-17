@@ -16,7 +16,7 @@ Seq-InSite is developed under Linux environment with python 3.8.
 
 Recommended RAM for testing: > 24GB and for training: >110 GB The RAM requirement mainly depends on the length of the input sequence. 
 
-Recommended GPU for testing: p100 with 16 GB of memory and for training: t4 with 16 GB of memory.
+Recommended GPU for testing: p100 with 12 GB of memory and for training: t4 with 16 GB of memory.
 
 
 
