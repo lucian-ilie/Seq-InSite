@@ -1,13 +1,11 @@
 # The source code of Seq-InSite
 The source code of Seq-InSite is optimized for high-throughput predictions and does not share the website's restriction of 10 sequences per run.
 # Citation
-S. Hosseini,  G.B. Golding, L. Ilie, Seq-InSite: sequence supersedes structure for protein interaction site prediction, submitted, 2023.
+S. Hosseini,  G.B. Golding, L. Ilie, Seq-InSite: sequence supersedes structure for protein interaction site prediction, Bioinformatics, 2023, to appear.
 
 Contact: 
 
 SeyedMohsen Hosseini (shosse59@uwo.ca)
-
-Brian Golding (Golding@mcmaster.ca)
 
 Lucian Ilie (ilie@uwo.ca)
 
