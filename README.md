@@ -1,7 +1,7 @@
 # The source code of Seq-InSite
 The source code of Seq-InSite is optimized for high-throughput predictions and does not share the website's restriction of 10 sequences per run.
 
-# Webserver
+# Web server
 Seq-InSite is freely available as a web server at http://seq-insite.csd.uwo.ca/.
 
 # Citation
