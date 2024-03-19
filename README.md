@@ -5,7 +5,7 @@ The source code of Seq-InSite is optimized for high-throughput predictions and d
 Seq-InSite is freely available as a web server at http://seq-insite.csd.uwo.ca/.
 
 # Citation
-S. Hosseini,  G.B. Golding, L. Ilie, Seq-InSite: sequence supersedes structure for protein interaction site prediction, Bioinformatics, 2023, to appear.
+S. Hosseini,  G.B. Golding, L. Ilie, Seq-InSite: sequence supersedes structure for protein interaction site prediction, Bioinformatics (2024) 40(1) btad738.
 
 Contact: 
 SeyedMohsen Hosseini (shosse59@uwo.ca)
